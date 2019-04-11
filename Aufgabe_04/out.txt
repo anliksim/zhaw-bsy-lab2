@@ -1,0 +1,8 @@
+bash(4987)───ProcA4.e(5064)─┬─ProcA4.e(5065)─┬─ProcA4.e(5068)─┬─ProcA4.e(5076)───ProcA4.e(5078)
+                            │                │                └─ProcA4.e(5077)
+                            │                ├─ProcA4.e(5071)───ProcA4.e(5075)
+                            │                └─ProcA4.e(5072)
+                            ├─ProcA4.e(5066)─┬─ProcA4.e(5073)───ProcA4.e(5079)
+                            │                └─ProcA4.e(5074)
+                            ├─ProcA4.e(5067)───ProcA4.e(5070)
+                            └─ProcA4.e(5069)

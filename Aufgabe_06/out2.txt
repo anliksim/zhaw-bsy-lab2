@@ -1,0 +1,28 @@
+[anliksim@lenny Aufgabe_06]$ ./ProcA6.e
+
+... ich bin das Kind 5365
+Mein Elternprozess ist 5364
+Mein Elternprozess ist 5364
+Mein Elternprozess ist 5364
+Mein Elternprozess ist 5364
+Mein Elternprozess ist 5364
+Mein Elternprozess ist 5364
+Mein Elternprozess ist 5364
+Mein Elternprozess ist 5364
+Mein Elternprozess ist 5364
+Mein Elternprozess ist 5364
+... so das wars
+
+
+*** and here an overview of your processes ****
+
+  PID TTY      STAT   TIME COMMAND
+ 5363 pts/0    S+     0:00 htop -u anliksim -t -s PID
+ 5364 pts/2    S+     0:00 ./ProcA6.e
+ 5365 pts/2    S+     0:00 ./ProcA6.e
+ 5368 pts/2    R+     0:00 ps -a 5364
+
+
+Antwort:
+
+Spalte S Wert des Child Process wechselt auf Z, andere Werte auf 0

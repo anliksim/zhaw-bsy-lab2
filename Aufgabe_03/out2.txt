@@ -1,0 +1,12 @@
+i vor fork: 5
+
+
+... wird sind die Eltern 4713 mit i=4 und Kind 4714,
+    unsere Eltern sind 4487
+
+execl not successful: No such file or directory
+
+. . . . . und wer bin ich ?
+
+
+. . . . . und wer bin ich ?

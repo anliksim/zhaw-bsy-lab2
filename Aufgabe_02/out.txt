@@ -1,0 +1,10 @@
+i vor fork: 5
+
+... wird sind die Eltern X mit i=4 und Kind Y,
+    unsere Eltern sind Z
+
+... ich bin das Kind Y mit i=6, meine Eltern sind X
+
+. . . . . und wer bin ich ?
+
+. . . . . und wer bin ich ?

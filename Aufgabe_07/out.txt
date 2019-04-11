@@ -1,0 +1,12 @@
+  PID TTY          TIME CMD
+ 5504 pts/2    00:00:00 aaaa.e
+ 5505 pts/2    00:00:00 aaaa.e <defunct>
+ 5506 pts/2    00:00:00 aaaa.e <defunct>
+ 5507 pts/2    00:00:00 aaaa.e <defunct>
+
+
+Antwort:
+
+Die Prozesse wechseln auf Z in der Spalte S
+
+exit(0) im Child code

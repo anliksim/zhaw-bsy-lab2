@@ -1,0 +1,14 @@
+a)
+
+Elapsed:                        2.080
+User CPU-time:                  0.950
+System CPU-time:                0.050
+
+b)
+
+Elapsed:                        12.150
+User CPU-time:                  0.910
+System CPU-time:                0.050
+
+
+Elapsed time ändert wegen zusätzlichem Worker

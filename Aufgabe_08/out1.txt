@@ -1,0 +1,22 @@
+b)
+
+SIGSEGV      11       Core    Invalid memory reference
+
+c)
+
+Process terminated (normal)
+
+SIGUSR1   30,10,16    Term    User-defined signal 1
+
+d)
+
+Programm wird abgebrochen
+
+SIGABRT       6       Core    Abort signal from abort(3)
+
+e)
+
+waitpid
+
+... This allows the parent to subsequently use waitpid(2) (or similar)
+to learn the termination status of the child; at that point the zombie process slot is released.

@@ -1,0 +1,17 @@
+i vor fork: 5
+
+
+... wird sind die Eltern 4735 mit i=4 und Kind 4736,
+    unsere Eltern sind 4487
+
+execl not successful: Permission denied
+
+. . . . . und wer bin ich ?
+
+
+. . . . . und wer bin ich ?
+
+
+Antwort:
+
+perror gibt uns den aktuellen Fehler aus (hier - Permission denied)

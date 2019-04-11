@@ -1,0 +1,56 @@
+a)
+
+Prozess wird beendet
+
+ 4987  8361  8361  4987 pts/2     8361 S+    1000   0:00 ./PlapperMaul.e
+
+b)
+
+Prozess läuft im Hintergrund -> Daemon
+
+    1  8429  8429  8429 ?           -1 Ss    1000   0:00 ./MrTimeDaemon.e
+
+c)
+
+*** daemon is already running ***
+
+e)
+
+It's 17:38:12 the 19.3.2019 on "lenny"
+
+f)
+
+[anliksim@lenny Aufgabe_12]$ ./MrTimeDaemon.e
+
+PID 8591, PPID 8590, GRP-ID 8590
+
+PID 8592, PPID 8591, GRP-ID 8590
+
+PID 8592, PPID 1, GRP-ID 8592
+
+*** daemon starts with process id: 8592 ***
+
+Steps needed:
+
+- Create lock files
+- Create log files
+- Fork prozess
+- Ignore SIGINT, SIGHUP, SIGQUIT
+- Make process session- and processgroup-leader
+- Change to secure directory
+- Allow all access rights for files
+- Setup lock
+- Setup logging
+- Execute actual service
+
+g)
+
+Prozess lässt sich starten aber es wir kein Lockfile erzeugt.
+Beim zweiten Mal gibt es ein Fehler im Log, jedoch kein Fehler auf der Konsole.
+
+
+I am Mr. Time Daemon on
+
+I am Mr. Time Daemon on
+
+bind failed : Address already in use

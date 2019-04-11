@@ -1,0 +1,10 @@
+a)
+
+Das gleiche Array wird befüllt von 2 pThreads, die Reihenfolge von 'p' und 'c' wird mittels "Münzenwurf" bestimmt.
+
+
+b)
+
+1. Prozess/Threads stoppen nicht -> braucht viel CPU
+
+2. Prozess wartet nicht auf Ausführung von Threads und terminiert bevor die Threads überhaupt arbeit verrichten.

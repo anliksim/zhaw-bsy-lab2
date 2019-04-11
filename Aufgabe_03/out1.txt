@@ -1,0 +1,9 @@
+i vor fork: 5
+
+
+... wird sind die Eltern 4687 mit i=4 und Kind 4688,
+    unsere Eltern sind 4487
+
+... ich bin das Kind 4688 mit i=6, meine Eltern sind 4687
+
+. . . . . und wer bin ich ?

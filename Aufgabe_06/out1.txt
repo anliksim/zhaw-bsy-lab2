@@ -1,0 +1,22 @@
+[anliksim@lenny Aufgabe_06]$ ./ProcA6.e
+
+... ich bin das Kind 5216
+Mein Elternprozess ist 5215
+Mein Elternprozess ist 5215
+Mein Elternprozess ist 5215
+Mein Elternprozess ist 1
+[anliksim@lenny Aufgabe_06]$ Mein Elternprozess ist 1
+Mein Elternprozess ist 1
+Mein Elternprozess ist 1
+Mein Elternprozess ist 1
+Mein Elternprozess ist 1
+Mein Elternprozess ist 1
+... so das wars
+
+
+*** and here an overview of your processes ****
+
+  PID TTY      STAT   TIME COMMAND
+    1 ?        Ss     0:01 /sbin/init
+ 5216 pts/2    S      0:00 ./ProcA6.e
+ 5217 pts/2    R      0:00 ps -a 1
